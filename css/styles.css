@@ -44,8 +44,9 @@ body {
   color: var(--logo-color);
 }
 
-.site-nav .link.current {
+.site-nav .link .current {
   color: var(--section-title-color);
+  text-decoration: none;
 }
 
 .site-nav .link:hover,
