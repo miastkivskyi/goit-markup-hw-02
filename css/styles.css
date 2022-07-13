@@ -10,6 +10,8 @@ body {
   --logo-color: #2196f3;
   --background-color: #2f303a;
   --section-title-color: #212121;
+  --button-back-color: #188ce8;
+  --button-basis: #f5f4fa;
 }
 
 .list {
@@ -19,33 +21,29 @@ body {
 /*site nav*/
 .header-nav {
   font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
 }
 .logo {
   font-family: "Raleway";
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.2;
   color: var(--title-text-color);
   text-decoration: none;
 }
 .logo-color {
   font-family: "Raleway";
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.2;
   color: var(--logo-color);
 }
 
-.site-nav .link {
+.site-nav .link .current {
   color: var(--section-title-color);
-  text-decoration: none;
 }
 
 .site-nav .link:hover,
@@ -72,10 +70,9 @@ body {
 }
 .hero-title {
   font-family: "Roboto";
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1, 5;
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--primary-white-color);
@@ -89,18 +86,15 @@ body {
 /*Portfolio*/
 .section-paragraph {
   font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.9;
 }
 .section-portfolio {
   color: var(--section-title-color);
   font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
 }
 
 /*footer*/
@@ -130,21 +124,46 @@ body {
   text-decoration: none;
   font-family: "Roboto";
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7;
 }
 .footer-nav .local {
   color: var(--primary-white-color);
   text-decoration: none;
   font-family: "Roboto";
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7;
 }
 
 .footer-nav .data:hover,
 .footer-nav .data:focus {
   color: var(--logo-color);
+}
+
+/*button*/
+
+.button-studio {
+  color: var(--primary-white-color);
+  background-color: var(--button-back-color);
+  font-family: inherit;
+  border: none;
+}
+
+.button-portfolio {
+  color: var(--section-title-color);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  background-color: var(--button-basis);
+  cursor: pointer;
+  border: none;
+}
+
+.button-portfolio:hover,
+.button-portfolio:focus {
+  color: var(--primary-white-color);
+  background-color: var(--logo-color);
 }
