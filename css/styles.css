@@ -43,6 +43,7 @@ body {
 }
 
 .site-nav .link .current {
+  text-decoration: none;
   color: var(--section-title-color);
 }
 
