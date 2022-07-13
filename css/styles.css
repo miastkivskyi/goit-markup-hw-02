@@ -61,3 +61,66 @@ body {
 .section-title {
   color: #212121;
 }
+.hero {
+  background-color: #2f303a;
+}
+.hero-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  color: #ffffff;
+}
+.team {
+  background: #f5f4fa;
+}
+/*Portfolio*/
+.section-paragraph {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+}
+.section-portfolio {
+  color: #212121;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+}
+
+/*footer*/
+
+.footer {
+  background: #2f303a;
+}
+.logo-white {
+  color: #ffffff;
+}
+
+.footer-nav .data {
+  color: #757575;
+  text-decoration: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+.footer-nav .local {
+  color: #ffffff;
+  text-decoration: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.footer-nav .data:hover,
+.footer-nav .data:focus {
+  color: #2196f3;
+}
