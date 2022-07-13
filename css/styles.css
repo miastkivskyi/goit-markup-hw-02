@@ -4,6 +4,12 @@ body {
   color: #757575;
 }
 :root {
+  --primary-text-color: #757575;
+  --title-text-color: #000000;
+  --primary-white-color: #ffffff;
+  --logo-color: #2196f3;
+  --background-color: #2f303a;
+  --section-title-color: #212121;
 }
 
 .list {
@@ -25,7 +31,7 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
-  color: #000000;
+  color: var(--title-text-color);
   text-decoration: none;
 }
 .logo-color {
@@ -34,35 +40,35 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
-  color: #2196f3;
+  color: var(--logo-color);
 }
 
 .site-nav .link {
-  color: #212121;
+  color: var(--section-title-color);
   text-decoration: none;
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: #2196f3;
+  color: var(--logo-color);
 }
 
 .contacts-nav .data {
-  color: #757575;
+  color: var(--primary-text-color);
   text-decoration: none;
 }
 
 .contacts-nav .data:hover,
 .contacts-nav .data:focus {
-  color: #2196f3;
+  color: var(--logo-color);
 }
 
 /*main*/
 .section-title {
-  color: #212121;
+  color: var(--section-title-color);
 }
 .hero {
-  background-color: #2f303a;
+  background-color: var(--background-color);
 }
 .hero-title {
   font-family: "Roboto";
@@ -70,10 +76,15 @@ body {
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
-  color: #ffffff;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--primary-white-color);
 }
 .team {
   background: #f5f4fa;
+}
+.staff {
+  background-color: var(--primary-white-color);
 }
 /*Portfolio*/
 .section-paragraph {
@@ -84,7 +95,7 @@ body {
   line-height: 30px;
 }
 .section-portfolio {
-  color: #212121;
+  color: var(--section-title-color);
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -94,15 +105,28 @@ body {
 
 /*footer*/
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .footer {
-  background: #2f303a;
+  background: var(--background-color);
 }
 .logo-white {
-  color: #ffffff;
+  color: var(--primary-white-color);
 }
 
 .footer-nav .data {
-  color: #757575;
+  color: var(--primary-text-color);
   text-decoration: none;
   font-family: "Roboto";
   font-style: normal;
@@ -111,7 +135,7 @@ body {
   line-height: 24px;
 }
 .footer-nav .local {
-  color: #ffffff;
+  color: var(--primary-white-color);
   text-decoration: none;
   font-family: "Roboto";
   font-style: normal;
@@ -122,5 +146,5 @@ body {
 
 .footer-nav .data:hover,
 .footer-nav .data:focus {
-  color: #2196f3;
+  color: var(--logo-color);
 }
