@@ -132,14 +132,14 @@ body {
 .section-paragraph {
   color: var(--primary-text-color);
   font-size: 16px;
-  line-height: 1.9px;
+  line-height: 1.9;
   letter-spacing: 0.03em;
 }
 .section-portfolio {
   color: var(--section-title-color);
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.9px;
+  line-height: 1.9;
   letter-spacing: 0.06em;
 }
 
